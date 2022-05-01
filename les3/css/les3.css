@@ -1,0 +1,12 @@
+.image-background {
+    background-image: url("../images/backgroundFon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-lviv {
+    height: 14%;
+    width: 14%;
+}
+
+
