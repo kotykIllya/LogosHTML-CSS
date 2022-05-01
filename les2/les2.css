@@ -1,0 +1,18 @@
+ol {
+    color: blue;
+}
+
+ul{
+    color: black;
+    list-style-type: disc;
+}
+
+.text {
+    color:grey;
+}
+
+.makeRed {
+    color: red;
+}
+
+
