@@ -1,0 +1,50 @@
+.text{
+    font-size: 25px;
+    font-kerning: normal;
+}
+
+.table-td1 {
+    border-collapse: collapse;
+    border: solid black 1px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px;
+}
+
+.table1{
+    width: 175px;
+}
+
+.three-six1{
+    height: 200px;
+}
+
+.table2 {
+    border-collapse: collapse;
+    border: solid black 1px;
+    width: 700px;
+    height: 25px;
+    background-color: yellow;
+}
+
+.table2-white {
+    background-color: white;
+}
+
+.table3 {
+    border-collapse: collapse;
+    border: solid black 1px;
+    vertical-align: middle;
+    text-align: center;
+    width: 600px;
+    height: 45px;
+}
+
+.table3-firstCol {
+    width: 200px;
+    height: 10px;
+}
+
+th{
+    background-color: yellow;
+}
