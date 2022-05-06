@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+    font-family: 'Fonts Free', sans-serif;
+    src: url("../fonts/FontsFree-Net-Akzidenz-Grotesk-Black.ttf");
+}
+
+.back-img {
+    background-image: url("../images/bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Fonts Free', sans-serif;
+    font-size: 50px;
+    color: #00264d;
+    text-shadow: 2px 1px 2px white;
+    margin: 0 0 40px 0;
+}
+
+.field {
+    position: relative;
+    height: 40px;
+    display: flex;
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    border: solid 1px #7ea6ff;
+    border-right: white;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #ebebeb;
+}
+
+.space {
+    margin-top: 21px;
+}
+
+.span-pass{
+    width: 40px;
+    height: 42px;
+    line-height: 55px;
+    background-color: #ebebeb;
+    background-image: url("../images/password-icon.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+    border-radius: 0 8px 8px 0;
+    border: solid 1px #7ea6ff;
+    border-left-color: #797979;
+}
+
+.field .span-pass:hover {
+    background-image: url("../images/password-icon-active.png");
+}
+
+.span-usn {
+    width: 40px;
+    height: 42px;
+    line-height: 55px;
+    background-color: #ebebeb;
+    background-image: url("../images/user-icon.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+    border-radius: 0 8px 8px 0;
+    border: solid 1px #7ea6ff;
+    border-left-color: #797979;
+}
+
+.field .span-usn:hover {
+    background-image: url("../images/user-icon-active.png");
+}
+
+.fpass-rem {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+}
+
+.fpass-rem a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 44px;
+}
+
+.fpass-rem input {
+    margin-left: -2px;
+    height: 15px;
+}
+
+.fpass-rem label {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background: #254e77;
+    height: 45px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 1px #7ea6ff;
+}
+
+.nm {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.nm span {
+    color: #797979;
+}
+
+.nm a {
+    color: #007eff;
+    text-decoration: none;
+}
+
+.or {
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #797979;
+    font-weight: 700;
+    line-height: 30px;
+    height: 35px;
+    width: 35px;
+    background-color: #eceaea;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fb-tw {
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.fb-icon {
+    /*background-color: radial-gradient(#5c6770, #0d63ab);*/
+    background-color: #0d63ab ;
+    width: 36px;
+    height: 34px;
+    background-image: url("../images/fb-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    border-radius: 4px 0 0 4px;
+    border-right: solid 1px #838383;
+}
+
+.fb {
+    background-color: #0d63ab;
+    width: 135px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 0 4px 4px 0;
+}
+
+.tw-icon {
+    margin-left: 20px;
+    background-color: #4fb8dc;
+    width: 36px;
+    height: 34px;
+    background-image: url("../images/twitter-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 21px;
+    border-radius: 4px 0 0 4px;
+    border-right: solid 1px #838383;
+}
+
+.tw {
+    background-color: #4fb8dc;
+    width: 135px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 0 4px 4px 0;
+}
+
