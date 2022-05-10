@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Alfa Echo', sans-serif;
+    src: url("../fonts/alpha_echo.ttf");
+}
+
+h1 {
+    font-family: 'Alfa Echo', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin-left: 46%;
+}
+
+.header-menu {
+    margin-left: 32%;
+}
+
+.b {
+    display: inline-block;
+    border: none;
+    background-color: white;
+    font-size: 19px;
+    margin-left: 3%;
+    border-radius: 4px 4px 4px 4px;
+    width: 8%;
+    height: 3.5vh;
+}
+
+.b a {
+    text-decoration: none;
+    font-family: 'Alfa Echo', sans-serif;
+    color: darkgray;
+}
+
+.b:hover {
+    background-color: #dedede;
+}
+
+.b1 {
+    display: inline-block;
+    border: none;
+    background-color: #d31348;
+    font-size: 19px;
+    margin-left: 3%;
+    border-radius: 4px 4px 4px 4px;
+    width: 7%;
+    height: 3.5vh;
+}
+
+.b1 a {
+    text-decoration: none;
+    font-family: 'Alfa Echo', sans-serif;
+    color: white;
+}
+
+.main {
+    margin-top: 25px;
+    background-color: #dcdcdc;
+    height: 160vh;
+}
+
+.article-container {
+    display: inline-block;
+    width: 40%;
+    height: 140vh;
+    margin-left: 20%;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.image-main {
+    width: 100%;
+    height: 32vh;
+    display: inline-block;
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+
+.aside1 {
+    display: inline-block;
+    width: 20%;
+    height: 60%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: white;
+    font-family: 'Alfa Echo', sans-serif;
+}
+
+.image-dog {
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 21px;
+    padding-left: 5%;
+}
+
+.ordinary-text {
+    color: #5d5c5c;
+    line-height: 180%;
+}
+
+.space-left {
+    padding-left: 5%;
+}
+
+.button {
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 8px 8px 8px 8px;
+    height: 5vh;
+    width: 55%;
+    font-family: 'Alfa Echo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: black;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.aside2 {
+    display: inline-block;
+    width: 20%;
+    height: 85%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 2%;
+    background-color: white;
+    font-family: 'Alfa Echo', sans-serif;
+}
+
+.image-breakfast {
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+}
+
+.aside2 a {
+    color: #da0b0b;
+}
+
+.aside2 a:hover {
+    text-decoration: none;
+}
+
+.aside2 hr {
+    margin: 7% 5%;
+}
+
+.aside2 button {
+    margin-top: 9%;
+}
+
+h2 {
+    font-family: 'Alfa Echo', sans-serif;
+    margin-left: 3.5%;
+    margin-top: 3%;
+}
+
+.i1 {
+    font-size: 24px;
+    margin-left: 3.5%;
+}
+
+.article-text {
+    font-family: 'Alfa Echo', sans-serif;
+    margin-left: 3.5%;
+    margin-right: 2%;
+}
+
+article h3 {
+    font-family: 'Alfa Echo', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: -1.5%;
+}
+
+.footer {
+    background-color: #262424;
+    height: 50vh;
+}
+
+.div-footer-left {
+    position: absolute;
+    left: 21.5%;
+    width: 18%;
+    height: 50%;
+    display: inline-block;
+}
+
+.div-footer-center {
+    display: inline-block;
+    position: absolute;
+    left: 42%;
+    width: 18%;
+    height: 50%;
+}
+
+.div-footer-right {
+    display: inline-block;
+    position: absolute;
+    left: 62.5%;
+    width: 18%;
+    height: 50%;
+}
+
+.h2-footer {
+    color: white;
+    font-family: 'Alfa Echo', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-bottom: 11%;
+}
+
+.div-footer-left a {
+    font-family: 'Alfa Echo', sans-serif;
+    color: #969696;
+}
+
+.div-footer-left a:hover {
+    text-decoration: none;
+}
+
+.div-footer-center a {
+    font-family: 'Alfa Echo', sans-serif;
+    color: #969696;
+}
+
+.div-footer-center a:hover {
+    text-decoration: none;
+}
+
+.space-above {
+    margin-top: 7%;
+}
+
+.img-footer {
+    padding-left: 4%;
+}
+
+.h3-footer {
+    font-family: 'Alfa Echo', sans-serif;
+    color: white;
+    margin-left: -4%;
+}
+
+.footer-address {
+    position: absolute;
+    top: 38%;
+    left: 44%;
+    font-family: 'Alfa Echo', sans-serif;
+    color: #5d5c5c;
+    line-height: 180%;
+}
+
+.hr-footer {
+    margin-top: 27%;
+}
+
+.reduce-space-above {
+    margin-top: 3%;
+}
+
+.space-above-plus {
+    margin-top: 10%;
+}
+
+.footer-mail {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+}
+
+.footer-mail a {
+    font-family: 'Alfa Echo', sans-serif;
+    color: #5d5c5c;
+    text-decoration: none;
+}
+
+.footer-tel {
+    position: absolute;
+    top: 79.5%;
+    left: 44%;
+}
+
+.footer-tel a {
+    font-family: 'Alfa Echo', sans-serif;
+    color: #5d5c5c;
+    text-decoration: none;
+}
+
+
