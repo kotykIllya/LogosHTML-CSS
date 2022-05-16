@@ -50,6 +50,10 @@ h1 {
     background-color: #ebebeb;
 }
 
+.field input:hover {
+    color: #007eff;
+}
+
 .space {
     margin-top: 21px;
 }
@@ -153,12 +157,27 @@ input[type="submit"] {
     display: inline-block;
 }
 
+.hr-left {
+    position: absolute;
+    top: 38.5%;
+    left: 28.2%;
+    width: 60px;
+    background-color: #eceaea;
+}
+
+.hr-right {
+    position: absolute;
+    top: 38.5%;
+    left: 54.8%;
+    width: 60px;
+    background-color: #eceaea;
+}
+
 .fb-tw {
     cursor: pointer;
     display: flex;
     margin-bottom: 20px;
     margin-top: 70px;
-    color: white;
     height: 100%;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -166,7 +185,6 @@ input[type="submit"] {
 }
 
 .fb-icon {
-    /*background-color: radial-gradient(#5c6770, #0d63ab);*/
     background-color: #0d63ab ;
     width: 36px;
     height: 34px;
@@ -205,5 +223,10 @@ input[type="submit"] {
     text-align: center;
     line-height: 33px;
     border-radius: 0 4px 4px 0;
+}
+
+.a1 {
+    text-decoration: none;
+    color: white;
 }
 
