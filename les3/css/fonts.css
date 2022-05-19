@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Arimo', sans-serif;
+    src: url(../fonts/Arimo-Italic-VariableFont_wght.ttf);
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+.lviv-text {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.text-spacing-underline {
+    letter-spacing: 3px;
+    text-decoration-line: underline;
+}
+
+.text-underline {
+    text-decoration-line: underline;
+}
+
+.text-line-through {
+    text-decoration-line: line-through;
+}
+
+.uppercase-letters {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
