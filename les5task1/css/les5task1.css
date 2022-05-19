@@ -1,0 +1,35 @@
+table, td {
+    text-decoration: underline;
+    background-color: yellow;
+    border-collapse: collapse;
+    border: solid black 1px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 12px;
+    margin: auto;
+    width: 1890px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    clear: left;
+    padding-top: 10px;
+}
+
+body {
+    background-color: #b9f3ff;
+}
+
+img {
+    float: left;
+}
+
+ul, li {
+    list-style-position: inside;
+    list-style-type: disc;
+    padding-inline-start: 350px;
+}
