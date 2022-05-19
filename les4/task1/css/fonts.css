@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Great Vibes', cursive;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+.text-red {
+    color: red;
+    font-size: 20px;
+}
+
+.text-red-plusFont {
+    color: red;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.text-green {
+    color: green;
+    font-size: 20px;
+}
+
+.text-green-plusFont {
+    color: green;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.text-blue {
+    color: blue;
+    font-size: 20px;
+}
+
+.text-blue-plusFont {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+}
