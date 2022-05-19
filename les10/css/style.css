@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Medieval Queen";
+    src: url("../fonts/Medieval Queen.ttf");
+}
+
+.background {
+    background-image: url("../images/mordor.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 952px;
+}
+
+.header {
+    font-family: "Medieval Queen", sans-serif;
+    color: #B22222;
+    letter-spacing: 7px;
+    margin-left: 20%;
+    display: inline-flex;
+}
+
+.text-info {
+    display: inline-flex;
+    color: silver;
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: inline-flex;
+    width: 67%;
+    height: 80%;
+    margin-left: 15%;
+    margin-top: -2%;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 320px;
+    height: 320px;
+    margin-left: 80px;
+    margin-top: 30px;
+    border: groove 5px rgba(253, 230, 86, 0.69);
+    border-radius: 3px;
+}
+
+.description {
+    display: block;
+    font-family: "Medieval Queen", sans-serif;
+    color: #ffae00;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer-text {
+    margin-top: 70px;
+    margin-left: 42%;
+    color: silver;
+}
+
+@media screen and (max-width: 1680px) {
+    .background {
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .background {
+        height: 3000px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .background {
+        width: 640px;
+        height: 2800px;
+    }
+
+    .footer-text {
+        margin-top: 240px;
+        margin-left: 200px;
+    }
+
+    .text-info {
+        margin-left: 450px;
+    }
+}
+
+
+
+
